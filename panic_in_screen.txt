@@ -1,0 +1,19 @@
+1. Go to the start menu.
+2. Click on "All Programs".
+3. Accessories.
+4. Notepad.
+
+Type or copy and paste the following (I recommend copy and paste):
+
+
+
+copy and paste : panic_in_screen.html
+
+
+Click File, Save as. Name it something that will bring attention to people. And where it says .txt, make it .html.
+
+example:
+
+from:       panic_in_screen.html
+
+to:         Millions.html
