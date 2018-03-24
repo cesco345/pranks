@@ -7,7 +7,7 @@ Type or copy and paste the following (I recommend copy and paste):
 
 
 
-copy and paste : panic_in_screen.html
+copy and paste the contents found here : panic_in_screen.html
 
 
 Click File, Save as. Name it something that will bring attention to people. And where it says .txt, make it .html.
