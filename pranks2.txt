@@ -1,25 +1,33 @@
-The most classic
+Taken from Kos,
+https://askubuntu.com/questions/642436/harmless-pranks-there-for-the-command-line
 
+
+The most classic
+=====================================
 sudo chsh -s /bin/false user
 
-This first one will set user's login shell to /bin/false, which is an executable which always returns false, effectively cutting the user out of his account;
+This first one will set user's login shell to /bin/false, which is an executable which always returns false, 
+effectively cutting the user out of his account;
 
-
+=====================================
 sudo chsh -s /usr/sbin/nologin user
 
 This second one will set user's login shell to /usr/sbin/nologin, which is an executable which will always display a custom message (which is intended to warn the user that he is not authorized to login), configurable in /etc/nologin.txt.
+
+
+
 
 You're going to have fun with the second one!
 
 If you don't have the target user's password but you have physical access to the machine:
 
-    Hold LSHIFT at power-on to boot into grub
-    Select the default kernel's recovery mode (e.g. Ubuntu, with Linux 3.19.0-15-generic (recovery mode)) and hit Enter
-    Select root - Drop to root shell prompt and hit Enter
-    Run mount -o rw,remount /
-    Run chsh -s /bin/false user or chsh -s /usr/sbin/nologin user
-    (Optional) If you chose the second method edit /etc/nologin.txtin the most profitable way
-    Run reboot
-    Enjoy
+1.  Hold LSHIFT at power-on to boot into grub
+2.  Select the default kernel's recovery mode (e.g. Ubuntu, with Linux 3.19.0-15-generic (recovery mode)) and hit Enter
+3.  Select root - Drop to root shell prompt and hit Enter
+4.  Run mount -o rw,remount /
+5.  Run chsh -s /bin/false user or chsh -s /usr/sbin/nologin user
+6.  (Optional) If you chose the second method edit /etc/nologin.txtin the most profitable way
+7.  Run reboot
+8.  Enjoy
 
 
